@@ -1,0 +1,127 @@
+body{
+   font-family: sarala;
+   margin: 0;
+   box-sizing: border-box;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height:  100vh;
+}
+.table-body{
+    display: flex;
+    justify-content: center;
+    
+}
+.name{
+    width: 100%;
+}
+table{
+    width: 100%;
+    font-size:15px ;
+    font-family: sarala;
+    height: 150px;
+    padding: 10px;
+
+}
+tbody{
+    width: 100%;
+    font-size:13px ;
+    font-family: sarala;
+}
+
+td{
+    padding: 5px;
+    color: rgba(255, 255, 255, 0.778);
+    text-align: center;
+    
+}
+td.risco{
+    text-decoration:line-through;
+}
+td.Srisco{
+    text-decoration:none;
+}
+th{
+    padding: 5px;
+    color: white;
+    
+}
+th:first-child,td:first-child{
+width: 300px;
+text-align: start;
+height: 30px;
+}
+
+span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+span:first-child{
+    margin-left: 200px;
+    margin-right: 20px;
+}
+
+.modal{
+background-color: #2a2e45;
+width: 500px;
+height: 700px;
+display: flex;
+flex-direction: column;
+border-radius: 10px;
+box-shadow: 5px 5px 50px #2a2e4559;
+text-transform: uppercase;
+text-align: center;
+color: #fff;
+}
+.modal--add{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(232, 232, 232);
+    
+
+}
+.modal--add input {
+    outline: 0;
+    color: #2a2e459e;
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+}
+.modal--add input::placeholder{
+    color: #2a2e456d;
+    font-size: 15px;
+}
+.botao{
+    background-color: transparent;
+    border: none;
+    color: #2a2e45;
+    text-transform: uppercase;
+}
+
+td button {
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #fbfbfb;
+  }
+  
+  td button i {
+    font-size: 20px;
+  }
+  
+  td button i:first-child {
+    margin-right: 10px;
+  }
+  input[type=checkbox]{
+    width: 15px;
+    height: 15px;
+  }
+  input:checked{
+    background-color: rgb(18, 204, 77) !important;
+    width: 20px;
+
+  }
